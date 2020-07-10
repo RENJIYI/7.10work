@@ -1,0 +1,399 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.b{
+    position: absolute;
+    top: 15px;
+    width: 0;
+    height: 0;
+    border-width: 3px;
+    border-style: solid dashed dashed;
+    border-color: #bbb transparent transparent;
+    font-size: 0;
+    line-height: 0;
+}
+nav a{
+    color: black;
+}
+li{
+    list-style:none ;
+    float: left;
+}
+/* 顶部开始 */
+.nav{
+    width: 100%;
+    height: 33px;
+    background: #f2f2f2;
+    position: absolute;
+    z-index: 999999;
+    left: 0;
+    top: 0;
+}
+.nav-color{
+    color: #999999;
+}
+.nav-left{
+    float: left;
+    margin-left: -30px;
+    line-height: 33px;
+    font-size: 12px;
+    font-family: "Microsoft YaHei";
+}
+.login{
+    padding: 0 10px 0 20px;
+}
+.register{
+    padding: 0 10px;
+}
+a:hover{
+    color: red;
+}
+@media (max-width: 1003px) {
+    .container {
+        margin-left: 20px;
+    }
+  }
+.nav-right{
+    line-height: 33px;
+    font-family: mui-global-iconfont!important;
+    font-size: 12px;
+    font-style: normal;
+    float: right;
+}
+.taobao{
+    width: 90px;
+    height: 33px;
+    position: relative;
+    display: inline-block;
+    padding: 0 14px 0 10px;
+    border-left: 1px solid  #f2f2f2;
+    border-right: 1px solid #f2f2f2;
+}
+.taobao-drop{
+    display: none;
+    position: absolute;
+    min-width: 80px;
+    border: 1px solid #f2f2f2;
+    background: #fff;
+}
+.taobao:hover .taobao-drop{
+    display: block;
+    background-color: #fff;
+}
+.taobao:hover b{
+    transform-origin: top;
+    transform: translateY(10px);
+    transform:rotate(180deg) ;
+}
+.collect{
+    display: inline-block;
+    width: 30pxpx;
+    height: 32px;
+    padding: 0 14px 0 10px;
+    border-left: 1px solid  #f2f2f2;
+    border-right: 1px ridge #999999;
+}
+.collect-drop{
+    display: none;
+    position: absolute;
+    min-width: 80px;
+    border: 1px solid #f2f2f2;
+    background: #fff;
+}
+.collect:hover .collect{
+    background: #fff;
+}
+.collect:hover .collect-drop{
+    display:block;
+}
+.collect:hover b{
+    transform-origin: top;
+    transform: translateY(10px);
+    transform:rotate(180deg) ;
+}
+.phone{
+    display: inline-block;
+    width: 50px;
+    height: 33px;
+    border-left: 1px solid  #f2f2f2;
+    border-right: 1px solid #f2f2f2;
+}
+.phone-drop{
+    display: none;
+    position: absolute;
+    border: 1px solid #f2f2f2;
+    background: #fff;
+}
+.phone:hover .phone-drop{
+    display:block;
+}
+.web{
+    width: 36px;
+    height: 16px;
+    border-left: 1px solid  #f2f2f2;
+    border-right: 1px solid #f2f2f2;
+}
+.boss{
+    display: inline-block;
+    width: 74px;
+    height: 32px;
+    padding: 0 14px 0 10px;
+    border-left: 1px solid  #f2f2f2;
+    border-right: 1px solid #f2f2f2;
+}
+.boss:hover b{
+    transform-origin: top;
+    transform: translateY(10px);
+    transform:rotate(180deg) ;
+}
+.boss-drop{
+    display: none;
+    position: absolute;
+    border: 1px solid #f2f2f2;
+    box-shadow: 0.5px #888888;;
+    background: #fff;
+}
+.boss:hover .boss-drop{
+    display:block;
+}
+.nav-nav{
+    display: inline-block;
+    width: 90px;
+    height: 32px;
+    border-left: 1px solid  #f2f2f2;
+    border-right: 1px solid #f2f2f2;
+}
+.nav-nav:hover b{
+    transform-origin: top;
+    transform: translateY(10px);
+    transform:rotate(180deg) ;
+}
+.nav-nav-drop{
+    display: none;
+    position: absolute;
+    border: 1px solid #f2f2f2;
+    box-shadow: 0.5px #888888;;
+    background: #fff;
+}
+.nav-nav:hover .nav-nav-drop{
+    display:block;
+}
+/* 顶部结束 */
+/* 搜索开始 */
+.seek{
+    width: 100%;
+    height:200px;
+    position: relative;
+}
+.logo-css{
+    margin-left: -60px;
+    position: absolute;
+    bottom:0px;
+}
+.seek-css{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -250px;
+}
+.input-css{
+    width: 500px;
+    height: 40px;
+    border: 3px solid red;
+}
+.buttom-css{
+    width: 100px;
+    height: 40px;
+    position: absolute;
+    display: inline-block;
+}
+#bottom-forn{
+    padding-left:25px;
+    line-height: 40px;
+    color: #fff;
+    font-size: 20px;
+    background-color: red;
+}
+@media (max-width: 1200px){
+    .input-css{
+       width: 300px;
+    }
+}
+/* 搜索结束 */
+/* 导航栏开始 */
+.row{
+    width: 100%;
+    height: 40px;
+    margin-left: -30px;
+    position: relative;
+}
+.bgc{
+    width:200px;
+    background-color: red;
+    padding-left: 15px;
+    font-family:Microsoft YaHei; 
+    font-size: 15px;
+    float: left;
+}
+.row-item{
+    line-height: 40px;
+    height: 35px;
+    float: left;
+    padding: 0 8px;
+    font-size: 16px;
+    display: block;
+    position: relative;
+}
+/* 导航栏结束 */
+/* banner开始 */
+#forn-inner{
+    color: #fff;
+    font-size: 14px;
+    line-height: 31px;
+    margin-left: -40px;
+    text-align: center;
+    font-family: "Microsoft YaHei",SimSun
+}
+.banner a{
+    color: white;
+}
+.banner li:hover a{
+    color: purple;
+}
+.banner li:hover{
+    background-color: white;
+}
+.banner{
+    width: 1230px;
+    height: 500px;
+    position: relative;
+    background-image: url(banner.png);
+    left: 50%;
+    margin-left: -615px;
+}
+.more-inner{
+    width: 200px;
+    margin-left: -30px;
+    height: 500px;
+    background:#000; 
+    opacity: 0.8;
+}
+.more-item{
+    width: 200px;
+    height: 31px;
+    display: block;
+}
+.more-item-drop{
+    display: none;
+    width: 200px;
+    height: 500px;
+    position: absolute;
+    border: 1px solid #f2f2f2;
+    box-shadow: 0.5px #888888;;
+    background: #fff;
+    left:215px;
+    top: 0px;
+}
+.more-item:hover .more-item-drop{
+    display:block;
+}
+/* banner结束 */
+/* 导航小框框开始 */
+.little-nav{
+    display: none;
+    position: fixed;
+    width: 35px;
+    height: 432px;
+    left: 300px;
+    bottom:50px;
+    z-index: 999;
+    background-color: red;
+}
+
+.one{
+    width: 36px;
+    height: 36px;
+    background-color: rgba(0, 0, 0, 0.6);
+    line-height: 36px;
+    text-align: center;
+}
+.two{
+    width: 36px;
+    height: 36px;
+    background-color: rgba(0, 0, 0, 0.6);
+    line-height: 18px;
+    text-align: center;
+}
+.one a{
+    color: white ;
+}
+.two a{
+    color: white ;
+}
+#one-forn{
+    color: white;
+    font-size: 8px;
+    margin: 6px auto;
+}
+.chaoshi{
+    height: 500px;
+    width: 100%;
+}
+/* 导航小框框结束 */
+/* 搜索小框框开始 */
+
+/* 搜索小框框结束 */
+/* 图片区开始 */
+.png{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    margin-left: -70px;
+}
+.png-item{
+    position: relative;
+    width: 300px;
+    height: 239px;
+    left: 50%;
+    top: 50%;
+    margin-left: -242.5px;
+    float: left;
+}
+/* 图片区结束 */
+/* 尾部开始 */
+#tmall-copyright {
+    border-top: 2px solid #FF0036;
+    background: #000;
+    text-align: left;
+    min-height: 177px;
+}
+#footer, #site-nav {
+    font-family: "Microsoft YaHei",tahoma,arial,'Hiragino Sans GB','\5b8b\4f53',sans-serif;
+}
+#footer {
+    min-height: 558px;
+    border-top: 1px solid #D1D7DC;
+    clear: both;
+    margin: 0;
+    text-align: center;
+    background: #fff;
+    position: relative;
+}
+#tmall-copyright .footer-copyright, #tmall-copyright .footer-otherlink, #tmall-copyright .footer-tmallinfo {
+    width: 1190px;
+    margin: 0 auto;
+}
+#tmall-copyright .footer-otherlink, #tmall-copyright .footer-tmallinfo {
+    color: #fff;
+    line-height: 25px;
+}
+#footer p, .subLogo-bd {
+    padding: 5px 0;
+}
+#tmall-copyright .footer-copyright {
+    line-height: 20px;
+    background: #000;
+    color: #a4a4a4;
+}
+/* 尾部结束 */
